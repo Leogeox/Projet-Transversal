@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Fatface";
+    src: url("../fonts/OhnoFatface-18PtCondensed.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Kranto";
+    src: url("../fonts/fonnts.com-Kranto_SemiCond_Regular_Text.otf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}

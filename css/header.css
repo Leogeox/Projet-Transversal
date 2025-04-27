@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    background-color: var(--darkBlue);
+    height: 100px;
+}
+
+.navHeader ul {
+    display: flex;
+    list-style: none;
+}
+
+.navHeader ul li { 
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.navHeader  a {
+    color: var(--white);
+    text-decoration: none;
+    margin: 1rem;
+    font-family: var(--kranto);
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.logoHeader {
+    width: 100px;
+    height: 100px;
+    margin-left: 70rem;
+}

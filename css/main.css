@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black : #000000;
+    --darkBlue : #020a27;
+    --blue : #0338e6;
+    --orange : #f58928;
+    --pink : #fb84d6;
+    --white : #f7f1f5;
+    --kranto : "Kranto", sans-serif;
+    --fatFace : "Fatface", sans-serif;
+}
+
+.body {
+    background-color: var(--white);
+}
+
+.openSideNav {
+    position: fixed;
+    right: 2.5rem;
+    width: 3%;
+    top: 16.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.openSideNav:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.sidenav{
+    display: none;
+    position: fixed;
+    right: -250px;;
+    bottom: 15rem;
+    background-color: thistle;
+    width: 6%;
+    margin: 0.5rem;
+}
+
+.sidenavOpen {
+    position: fixed;
+    right: 0;
+    bottom: 15rem;
+    background-color: thistle;
+    width: 6%;
+    margin: 1rem;
+}
+
+.sidenavPosition {
+    justify-items: center;
+    display: grid;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.icons {
+    width: 60%;
+    margin: 0.3rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icons:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+h1 {
+    font-family: var(--fatFace);
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+}

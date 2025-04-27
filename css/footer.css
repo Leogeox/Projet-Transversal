@@ -1,0 +1,49 @@
+.footer {
+    background-color: var(--darkBlue);
+    height: 170px;
+}
+
+.navFooter ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.navFooter ul li {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.navFooter  a {
+    text-decoration: none;
+    color: var(--white);
+    margin: 1rem;
+    font-family: var(--kranto);
+}
+
+.logoFooter {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    margin-right: 2rem;
+    right: 0;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8rem;
+}
+
+.iconsFooter {
+    width: 4%;
+    margin: 0.5rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.iconsFooter:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
