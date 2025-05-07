@@ -1,0 +1,60 @@
+.container_ticket {
+    display: flex;
+    justify-content: center;
+    margin: 0rem;
+}
+
+.ticket {
+    margin: 2rem;
+    color: var(--white);
+    background-color: var(--pink);
+    border: none;
+    border-radius: 30px;
+    height: 19rem;
+    width: 15rem;
+    margin-top: 5rem;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.date {
+    font-size: 1.3rem;
+    font-family: var(--kranto);
+    font-weight: 700;
+    color: var(--darkBlue);
+    margin: 0.5rem;
+    transition: 0.5s;
+}
+
+.grp {
+    font-size: 2rem;
+    font-family: var(--kranto);
+    transition: 0.5s;
+}
+
+.price {
+    font-size: 4rem;
+    font-family: var(--kranto);
+    font-weight: 700;
+    margin: 0.5rem;
+    margin-top: 1.5rem;
+    transition: 0.5s;
+}
+
+.toBook {
+    cursor: pointer;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    height: 2.9rem;
+    border: 2px solid var(--transparent);
+    border-radius: 30px;
+    color: var(--white);
+    background-color: var(--blue);
+    transition: 0.5s;
+}
+
+.toBook:hover {
+    background-color: var(--transparent);
+    border: 2px solid var(--white);
+}

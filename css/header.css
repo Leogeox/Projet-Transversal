@@ -2,11 +2,21 @@
     display: flex;
     background-color: var(--darkBlue);
     height: 100px;
+    transition: 0.5s;
+}
+
+.headerBackground {
+    background-image: url('../img/backgrounds/accueil.png');
+    background-size: cover;
+    display: flex;
+    height: 780px;
+    transition: 0.5s;
 }
 
 .navHeader ul {
     display: flex;
     list-style: none;
+    margin-left: 45rem;
 }
 
 .navHeader ul li { 
@@ -17,14 +27,71 @@
 .navHeader  a {
     color: var(--white);
     text-decoration: none;
-    margin: 1rem;
+    margin: 0.5rem;
+    padding: 0.3rem 0.7rem;
     font-family: var(--kranto);
     font-size: 1.5rem;
     width: 100%;
+    transition: 0.2s;
+}
+
+.navHeader  a:hover {
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    transition: 0.2s;
 }
 
 .logoHeader {
     width: 100px;
     height: 100px;
-    margin-left: 70rem;
+    margin-left: 2rem;
+    transition: 0.5s;
+}
+
+.h1Accueil {
+    font-family: var(--kranto);
+    font-size: 5rem;
+    color: var(--white);
+    margin-top: 2rem;
+    transition: 0.5s;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.btns {
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 55%;
+}
+
+.btnsPosition {
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    font-family: var(--kranto);
+    font-size: 1.8rem;
+    height: 50px;
+    padding: 2.2rem;
+    margin: 1.3rem;
+}
+
+.btn1 {
+    cursor: pointer;
+    background-color: var(--blue);
+    color: var(--white);
+    border: 2px solid var(--transparent);
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.btn2 {
+    cursor: pointer;
+    background-color: var(--transparent);
+    color: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 50px;
+    transition: 0.5s;
 }

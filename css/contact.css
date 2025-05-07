@@ -1,0 +1,47 @@
+.form_container {
+    display: flex;
+    justify-content: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 6rem;
+    padding: 5rem;
+    background-color: var(--white);
+    border-radius: 20px;
+    border: none;
+    transition: 0.5s;
+}
+
+.formEnter {
+    height: 3.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    font: 400 1.1rem "Poppins", sans-serif;
+    transition: 0.5s;
+}
+
+.submit {
+    cursor: pointer;
+    background-color: var(--blue);
+    color: var(--white);
+    height: 3.5rem;
+    width: 30%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 30px;
+    font: 400 1.3rem "Poppins", sans-serif;
+    transition: 0.5s;
+}
+
+.submit:hover {
+    background-color: var(--transparent);
+    border: 2px solid var(--darkBlue);
+    color: var(--darkBlue);
+    transition: 0.5s;
+}

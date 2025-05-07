@@ -1,0 +1,170 @@
+.blind .header {
+    height: 120px;
+    transition: 0.5s;
+}
+
+.blind .navHeader  ul {
+    margin-left: 39rem;
+    transition: 0.5s;
+}
+
+.blind .navHeader  a {
+    font-size: 1.8rem;
+    transition: 0.5s;
+}
+
+.blind .logoHeader {
+    transition: 0.5s;
+    width: 120px;
+    height: 120px;
+}
+
+.blind #blindbtn {
+    width: 5%;
+    transition: 0.5s;
+}
+
+.blind .h1Accueil {
+    font-size: 5.5rem;
+    transition: 0.5s;
+}
+
+.blind .h1 {
+    font-size: 4rem;
+    transition: 0.5s;
+}
+
+.blind .btnsPosition {
+    font-size: 2.3rem;
+    padding: 2.3rem;
+    transition: 0.5s;
+}
+
+.blind .ticket {
+    margin: 2rem;
+    height: 24rem;
+    width: 18rem;
+    transition: 0.5s;
+}
+
+.blind .date {
+    font-size: 1.6rem;
+    transition: 0.5s;
+}
+
+.blind  .grp {
+    font-size: 2.7rem;
+    transition: 0.5s;
+}
+
+.blind .price {
+    font-size: 6rem;
+    transition: 0.5s;
+}
+
+.blind .toBook {
+    cursor: pointer;
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    height: 3.5rem;
+    transition: 0.5s;
+}
+
+.blind #form {
+    width: 60%;
+    transition: 0.5s;
+}
+
+.blind .formEnter {
+    height: 4rem;
+    font-size: 1.4rem;
+    transition: 0.5s;
+}
+
+.blind .submit {
+    height: 4rem;
+    font-size: 1.4rem;
+    transition: 0.5s;
+}
+
+.blind .footer {
+    height: 190px;
+    transition: 0.5s;
+}
+
+.blind .navFooter a {
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.blind .iconsFooter {
+    width: 5%;
+    transition: 0.5s;
+}
+
+.blind .activity {
+    width: 30%;
+    margin: 3rem;
+    transition: 0.5s;
+}
+
+.blind .h2 {
+    font-size: 3.5rem;
+    transition: 0.5s;
+}
+
+.blind .imgActivity {
+    width: 25%;
+    margin: 2.5rem;
+    transition: 0.5s;
+}
+
+.blind .btnActivity {
+    font-size: 1.5rem;
+    padding: 1.3rem;
+    transition: 0.5s;
+}
+
+.blind .h3 {
+    font-size: 3rem;
+    transition: 0.5s;
+}
+
+.blind .activityContainer p {
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+.blind .gifts {
+    margin: 7rem 2rem 2rem 2rem;
+    width: 25%;
+}
+
+/* .blind .extrait {
+    width: ;
+} */
+
+.blind .swiper {
+    width: 90%;
+    height: 200px;
+    margin-top: 8rem;
+    transition: 0.5s;
+}
+
+.blind .swiper-slide img {
+    width: 140px;
+    height: 90%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    transition: 0.5s;
+}
+
+.blind .swiper-slide h4 {
+    font-size: 2rem;
+    margin: 4rem 1.5rem 1.5rem 1.5rem;
+    transition: 0.5s;
+}
+
+.blind .swiper-slide p {
+    font-size: 1.8rem;
+}
